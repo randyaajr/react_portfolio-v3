@@ -46,7 +46,7 @@ export default function Portfolio() {
       case "mobile":
         setData(mobilePortfolio);
         break;
-      case "design":
+      case "games":
         setData(gamesPortfolio);
         break;
       case "content":
