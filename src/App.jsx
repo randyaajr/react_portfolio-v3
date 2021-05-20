@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-import Resume from "./components/resume/Resume";
+import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
@@ -17,7 +17,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Resume />
+        <Services />
         <Testimonials />
         <Contact />
       </div>
