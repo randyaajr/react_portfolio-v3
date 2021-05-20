@@ -75,7 +75,7 @@ export default function Portfolio() {
           <div className="item">
             <img src={d.img} alt="" />
             <h3>
-              <a href={d.link} target="_blank">
+              <a href={d.link} target="_blank" rel="noreferrer">
                 {d.title}
               </a>
             </h3>
