@@ -156,4 +156,52 @@ export const gamesPortfolio = [{
     },
 ];
 
-export const instrumentalsPortfolio = [];
+export const instrumentalsPortfolio = [{
+        id: 1,
+        title: "Childish Games - Trap Beat",
+        img: "assets/mpChildish-Games.PNG",
+        link: "https://bsta.rs/0f9a485e",
+    },
+    {
+        id: 2,
+        title: "Gun Smoke - Trap Beat",
+        img: "assets/mpGun-Smoke.PNG",
+        link: "https://bsta.rs/9f7ee7e8",
+    },
+    {
+        id: 3,
+        title: "Astroplane - Trap Beat",
+        img: "assets/mpAstroplane.PNG",
+        link: "https://bsta.rs/d58213c5",
+    },
+    {
+        id: 4,
+        title: "Pathogen - Trap Beat",
+        img: "assets/mpPathogen.PNG",
+        link: "https://bsta.rs/ab9ca9d",
+    },
+    {
+        id: 5,
+        title: "Shattered - Trap Beat",
+        img: "assets/mpShattered.PNG",
+        link: "https://bsta.rs/89b12f8",
+    },
+    {
+        id: 6,
+        title: "Ya Rab - Trap Beat",
+        img: "assets/mpYa-Rab.PNG",
+        link: "https://bsta.rs/0f9a485e",
+    },
+    {
+        id: 7,
+        title: "Anxiety - Trap Beat",
+        img: "assets/mpAnxiety.PNG",
+        link: "https://bsta.rs/8147bbe",
+    },
+    {
+        id: 8,
+        title: "Wallahi - Trap Beat",
+        img: "assets/mpWallahi.PNG",
+        link: "https://bsta.rs/a6b6a13",
+    },
+];
