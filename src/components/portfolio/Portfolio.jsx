@@ -6,7 +6,6 @@ import {
   webPortfolio,
   mobilePortfolio,
   gamesPortfolio,
-  contentPortfolio,
   instrumentalsPortfolio,
 } from "../../data";
 
@@ -31,10 +30,6 @@ export default function Portfolio() {
       title: "Games",
     },
     {
-      id: "content",
-      title: "Content",
-    },
-    {
       id: "music",
       title: "Instrumentals",
     },
@@ -53,9 +48,6 @@ export default function Portfolio() {
         break;
       case "games":
         setData(gamesPortfolio);
-        break;
-      case "content":
-        setData(contentPortfolio);
         break;
       case "music":
         setData(instrumentalsPortfolio);
