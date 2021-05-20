@@ -12,93 +12,39 @@ export const featuredPortfolio = [{
     },
     {
         id: 3,
-        title: "Love Runnings",
-        img: "assets/loverunnings0.PNG",
-        link: "https://randyaajr.github.io/Love-Runnings/",
-    },
-    {
-        id: 4,
         title: "Task Manager",
         img: "assets/task-manager0.PNG",
         link: "https://task-manager-randy.herokuapp.com/get_tasks",
     },
     {
-        id: 5,
+        id: 4,
         title: "Portfolio V1",
         img: "assets/resume0.PNG",
         link: "https://randyaajr.github.io/resume-webpage/",
     },
     {
-        id: 6,
+        id: 5,
         title: "Portfolio V2",
         img: "assets/portfolio-old.PNG",
         link: "https://randyaajr.github.io/portfolio-randy/",
     },
     {
-        id: 7,
+        id: 6,
         title: "InfoFlix",
         img: "assets/infoflix0.PNG",
         link: "https://randyaajr.github.io/InfoFlix_Milestone-2/",
     },
     {
+        id: 7,
+        title: "Homies",
+        img: "assets/homies.PNG",
+        link: "https://60a6b2828fcc5b00e5bbb048--affectionate-almeida-fddb2b.netlify.app/",
+    },
+    {
         id: 8,
-        title: "Meal Maid",
-        img: "assets/meal-maid0.PNG",
-        link: "https://randyaajr.github.io/Meal-Maid_Milestone-1/",
-    },
-    {
-        id: 9,
-        title: "Whisky Drop",
-        img: "assets/whiskydrop0.PNG",
-        link: "https://randyaajr.github.io/bootstrap-whiskeydrop-first-repo/",
-    },
-    {
-        id: 10,
-        title: "Todo-List",
-        img: "assets/todo-app0.PNG",
-        link: "https://randyaajr.github.io/Todo-list/",
-    },
-    {
-        id: 11,
-        title: "Boxie",
-        img: "assets/Boxie-game0.PNG",
-        link: "https://randyaajr.github.io/Javascript-box-game/",
-    },
-    {
-        id: 12,
-        title: "Space Invaders",
-        img: "assets/sp-inv.PNG",
-        link: "https://codepen.io/randyaajr/full/ExgeReq",
-    },
-    {
-        id: 13,
-        title: "Light Up Icon Buttons",
-        img: "assets/light-up.PNG",
-        link: "https://codepen.io/randyaajr/full/XWjYaJq",
-    },
-    {
-        id: 14,
-        title: "Tetris",
-        img: "assets/tetris.PNG",
-        link: "https://codepen.io/randyaajr/full/abmaKXb",
-    },
-    {
-        id: 15,
-        title: "Mr. Floatie",
-        img: "assets/floaty-ghost.PNG",
-        link: "https://codepen.io/randyaajr/full/ExgRvyd",
-    },
-    {
-        id: 16,
-        title: "Archery",
-        img: "assets/archery.PNG",
-        link: "https://codepen.io/randyaajr/full/LYRrjRv",
-    },
-    {
-        id: 17,
-        title: "Space Dots",
-        img: "assets/sdg.PNG",
-        link: "https://codepen.io/randyaajr/full/xxEzrKr",
+        title: "Tours",
+        img: "assets/tours.PNG",
+        link: "https://randyaajr.github.io/sass-project_tours-travel-agency/",
     },
 ];
 
@@ -110,15 +56,15 @@ export const webPortfolio = [{
     },
     {
         id: 2,
-        title: "Love Runnings",
-        img: "assets/loverunnings0.PNG",
-        link: "https://randyaajr.github.io/Love-Runnings/",
-    },
-    {
-        id: 3,
         title: "Task Manager",
         img: "assets/task-manager0.PNG",
         link: "https://task-manager-randy.herokuapp.com/get_tasks",
+    },
+    {
+        id: 3,
+        title: "Tours",
+        img: "assets/tours.PNG",
+        link: "https://randyaajr.github.io/sass-project_tours-travel-agency/",
     },
     {
         id: 4,
@@ -155,6 +101,18 @@ export const webPortfolio = [{
         title: "Todo-List",
         img: "assets/todo-app0.PNG",
         link: "https://randyaajr.github.io/Todo-list/",
+    },
+    {
+        id: 10,
+        title: "Homies",
+        img: "assets/homies.PNG",
+        link: "https://60a6b2828fcc5b00e5bbb048--affectionate-almeida-fddb2b.netlify.app/",
+    },
+    {
+        id: 11,
+        title: "Love Runnings",
+        img: "assets/loverunnings0.PNG",
+        link: "https://randyaajr.github.io/Love-Runnings/",
     },
 ];
 
