@@ -11,8 +11,7 @@ export default function Intro() {
       backSpeed: 100,
       showCursor: true,
       strings: [
-        "Software Development",
-        "Web Development",
+        "Software And Web Development",
         "Web Design",
         "Music Production",
         "Creating Content",
