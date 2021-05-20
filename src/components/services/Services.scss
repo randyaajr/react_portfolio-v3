@@ -4,6 +4,19 @@
     display: flex;
     align-items: center;
     justify-self: center;
+    position: relative;
+    .arrow {
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        &.left {
+            left: 100px;
+            transform: rotateY(180deg);
+        }
+        &.right {
+            right: 100px;
+        }
+    }
     .slider {
         height: 350px;
         display: flex;
