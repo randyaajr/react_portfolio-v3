@@ -7,6 +7,7 @@ import {
   mobilePortfolio,
   gamesPortfolio,
   contentPortfolio,
+  instrumentalsPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -33,6 +34,10 @@ export default function Portfolio() {
       id: "content",
       title: "Content",
     },
+    {
+      id: "music",
+      title: "Instrumentals",
+    },
   ];
 
   useEffect(() => {
@@ -51,6 +56,9 @@ export default function Portfolio() {
         break;
       case "content":
         setData(contentPortfolio);
+        break;
+      case "music":
+        setData(instrumentalsPortfolio);
         break;
       default:
         setData(featuredPortfolio);
