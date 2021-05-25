@@ -12,6 +12,12 @@ export const featuredPortfolio = [{
     },
     {
         id: 3,
+        title: "Pizzeria Defina",
+        img: "assets/defina.PNG",
+        link: "http://www.pizzeriadefina.com/",
+    },
+    {
+        id: 3,
         title: "Task Manager",
         img: "assets/task-manager0.PNG",
         link: "https://task-manager-randy.herokuapp.com/get_tasks",
@@ -115,6 +121,13 @@ export const webPortfolio = [{
         link: "https://randyaajr.github.io/Love-Runnings/",
     },
 ];
+
+export const clientPortfolio = [{
+    id: 1,
+    title: "Pizzeria Defina",
+    img: "assets/defina.PNG",
+    link: "http://www.pizzeriadefina.com/",
+}, ];
 
 export const mobilePortfolio = [];
 
