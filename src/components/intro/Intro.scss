@@ -1,6 +1,6 @@
 @import "../../global.scss";
 .intro {
-    background-image: url(./ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+    background-image: url(./bgi.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,22 +35,18 @@
             h1 {
                 color: white;
                 font-size: 60px;
-                text-shadow: 1px 1px 1px $mainColor;
                 margin: 10px 0;
             }
             h2 {
                 color: white;
                 font-style: 35px;
-                text-shadow: 1px 1px 1px $mainColor;
             }
             h3 {
                 color: white;
                 font-style: 30px;
-                text-shadow: 1px 1px 1px $mainColor;
                 span {
                     font-size: inherit;
                     color: $mainColor;
-                    text-shadow: 1px 1px 1px white;
                 }
                 .ityped-cursor {
                     animation: flicker 2s infinite;
