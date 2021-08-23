@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-  background-color: white;
+  background-color: $whiteColor;
   display: flex;
 
   .left {
@@ -46,7 +46,7 @@
       button {
         width: 150px;
         height: 30px;
-        color: white;
+        color: $whiteColor;
         background-color: $mainColor;
         border: none;
         border-radius: 10px;

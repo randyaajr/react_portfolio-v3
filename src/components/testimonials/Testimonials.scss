@@ -9,9 +9,8 @@
   flex-direction: column;
   align-items: center;
 
-
   h1 {
-    color: white;
+    color: $whiteColor;
     font-size: 50px;
   }
 
@@ -26,7 +25,8 @@
       width: 250px;
       height: 70%;
       border-radius: 10px;
-      background-color: #fff;
+      border: 2px solid $softRed;
+      background-color: $whiteColor;
       box-shadow: 0px 0px 15px -8px black;
       display: flex;
       flex-direction: column;
@@ -34,14 +34,15 @@
       padding: 20px;
       transition: all 1s ease;
 
-      &.featured{
-          width: 300px;
-          height: 75%;
-          margin: 0 30px;
+      &.featured {
+        width: 300px;
+        height: 75%;
+        margin: 0 30px;
       }
 
-      &:hover{
-          transform: scale(1.1);
+      &:hover {
+        transform: scale(1.1);
+        border: 5px solid $softRed;
       }
 
       .top {
@@ -67,7 +68,9 @@
       .center {
         padding: 10px;
         border-radius: 10px;
-        background-color: rgb(250, 244, 245);
+        border: 2px solid $softRed;
+        color: $whiteColor;
+        background-color: $secondaryColor;
       }
       .bottom {
         display: flex;
@@ -78,8 +81,8 @@
         h3 {
           margin-bottom: 5px;
         }
-        h4{
-            color: rgb(121, 115, 115);
+        h4 {
+          color: $softRed;
         }
       }
     }

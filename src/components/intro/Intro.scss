@@ -1,79 +1,79 @@
 @import "../../global.scss";
 .intro {
-    background-image: url(./bgi.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    .left {
-        flex: 0.5;
-        overflow: hidden;
-        .imgContainer {
-            width: 750px;
-            height: 750px;
-            background-color: $mainColor;
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
-            img {
-                height: 90%;
-            }
-        }
+  background-image: url(./bgi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+    .imgContainer {
+      width: 750px;
+      height: 750px;
+      background-color: $mainColor;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+      img {
+        height: 90%;
+      }
     }
-    .right {
-        flex: 0.5;
-        position: relative;
-        .wrapper {
-            width: 100%;
-            height: 100%;
-            padding-left: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            h1 {
-                color: white;
-                font-size: 60px;
-                margin: 10px 0;
-            }
-            h2 {
-                color: white;
-                font-style: 35px;
-            }
-            h3 {
-                color: white;
-                font-style: 30px;
-                span {
-                    font-size: inherit;
-                    color: $mainColor;
-                }
-                .ityped-cursor {
-                    animation: flicker 2s infinite;
-                }
-                @keyframes flicker {
-                    50% {
-                        opacity: 1;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
-                }
-            }
+  }
+  .right {
+    flex: 0.5;
+    position: relative;
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        color: $whiteColor;
+        font-size: 60px;
+        margin: 10px 0;
+      }
+      h2 {
+        color: $whiteColor;
+        font-style: 35px;
+      }
+      h3 {
+        color: $whiteColor;
+        font-style: 30px;
+        span {
+          font-size: inherit;
+          color: $mainColor;
         }
-        a {
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
-            img {
-                width: 30px;
-                animation: arrowBlink 2s infinite;
-            }
-            @keyframes arrowBlink {
-                100% {
-                    opacity: 0;
-                }
-            }
+        .ityped-cursor {
+          animation: flicker 2s infinite;
         }
+        @keyframes flicker {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
     }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
 }
