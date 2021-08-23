@@ -4,6 +4,14 @@ $secondaryColor: #868686;
 $whiteColor: #fff;
 $softRed: #fc6d6d;
 
+$width: 768px;
+
+*::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 @mixin mobile {
   @media (max-width: #{$width}) {
     @content;
