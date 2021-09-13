@@ -1,20 +1,20 @@
 .app {
-    height: 100vh;
-    .sections {
-        width: 100%;
-        height: calc(100vh - 70px);
-        background-color: lightsalmon;
-        position: relative;
-        top: 70px;
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none; // functional on Firefox only
-        &::-webkit-scrollbar {
-            display: none; // removes scrolbar for all other browsers
-        }
-        >* {
-            width: 100%;
-            height: calc(100vh - 70px);
-            scroll-snap-align: start;
-        }
+  height: 100vh;
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; // functional on Firefox only
+    &::-webkit-scrollbar {
+      display: none; // removes scrolbar for all other browsers
     }
+    > * {
+      width: 100%;
+      height: calc(100vh - 70px);
+      scroll-snap-align: start;
+    }
+  }
 }
